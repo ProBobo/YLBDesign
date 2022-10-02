@@ -1,9 +1,16 @@
-use_frameworks!
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+#use_frameworks!
 
 platform :ios, '10.0'
 
 target 'YLBDesign_Example' do
   pod 'YLBDesign', :path => '../'
+  
+  
+  pod 'QMUIKit'
+  
+  
 
   target 'YLBDesign_Tests' do
     inherit! :search_paths
