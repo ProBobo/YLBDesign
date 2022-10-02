@@ -14,7 +14,19 @@ target 'YLBDesign_Example' do
 
   target 'YLBDesign_Tests' do
     inherit! :search_paths
-
     
   end
+  
+  
+  post_install do |installer|
+    # 适配 Xcode 14 证书签名问题
+    installer.generated_projects.each do |project|
+        project.targets.each do |target|
+            target.build_configurations.each do |config|
+                config.build_settings['CODE_SIGN_IDENTITY'] = ''
+             end
+        end
+    end
+  end
+  
 end
