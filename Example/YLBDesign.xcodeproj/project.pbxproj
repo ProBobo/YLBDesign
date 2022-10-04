@@ -14,7 +14,6 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* YLBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YLBAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* YLBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YLBViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
@@ -24,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BEC55B6228EBF4B0007964CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC55B6128EBF4B0007964CF /* AppDelegate.m */; };
+		BEC55B7528EC039F007964CF /* ClassName.json in Resources */ = {isa = PBXBuildFile; fileRef = BEC55B7428EC039F007964CF /* ClassName.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06F7CAE318536B7AB4878AA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		06F7CAE318536B7AB4878AA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		12F4A1CB1F87CA2E8B129111 /* libPods-YLBDesign_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBDesign_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F45B723967F3F02B67FEAE /* Pods-YLBDesign_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBDesign_Tests.release.xcconfig"; path = "Target Support Files/Pods-YLBDesign_Tests/Pods-YLBDesign_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YLBDesign_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLBDesign_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,8 +49,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* YLBDesign-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLBDesign-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* YLBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* YLBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* YLBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* YLBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -61,12 +60,15 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8EB427C171971A59C7D4F8EB /* YLBDesign.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YLBDesign.podspec; path = ../YLBDesign.podspec; sourceTree = "<group>"; };
+		8EB427C171971A59C7D4F8EB /* YLBDesign.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLBDesign.podspec; path = ../YLBDesign.podspec; sourceTree = "<group>"; };
 		969D38D4F642CCF46F4AE993 /* Pods-YLBDesign_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBDesign_Example.release.xcconfig"; path = "Target Support Files/Pods-YLBDesign_Example/Pods-YLBDesign_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A22A21B6155735FD562A6200 /* Pods-YLBDesign_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBDesign_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YLBDesign_Tests/Pods-YLBDesign_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB2D17B58DB10DB0FD61E361 /* Pods-YLBDesign_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBDesign_Example.debug.xcconfig"; path = "Target Support Files/Pods-YLBDesign_Example/Pods-YLBDesign_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC55B6028EBF4B0007964CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEC55B6128EBF4B0007964CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEC55B7428EC039F007964CF /* ClassName.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ClassName.json; sourceTree = "<group>"; };
 		DE21AAC43CCC8FC33E0D33D3 /* libPods-YLBDesign_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBDesign_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E71421DCB3316029CF948660 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E71421DCB3316029CF948660 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,14 +134,15 @@
 		6003F593195388D20070C39A /* Example for YLBDesign */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* YLBAppDelegate.h */,
-				6003F59D195388D20070C39A /* YLBAppDelegate.m */,
+				BEC55B7428EC039F007964CF /* ClassName.json */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YLBViewController.h */,
 				6003F5A6195388D20070C39A /* YLBViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				BEC55B6028EBF4B0007964CF /* AppDelegate.h */,
+				BEC55B6128EBF4B0007964CF /* AppDelegate.m */,
 			);
 			name = "Example for YLBDesign";
 			path = YLBDesign;
@@ -193,7 +196,6 @@
 				A22A21B6155735FD562A6200 /* Pods-YLBDesign_Tests.debug.xcconfig */,
 				32F45B723967F3F02B67FEAE /* Pods-YLBDesign_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +283,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				BEC55B7528EC039F007964CF /* ClassName.json in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,10 +351,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YLBDesign_Example/Pods-YLBDesign_Example-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/QMUIKit/QMUIResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/YLBDesign/YLBDesign.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YLBDesign.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,7 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* YLBAppDelegate.m in Sources */,
+				BEC55B6228EBF4B0007964CF /* AppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YLBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

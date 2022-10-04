@@ -1,18 +1,22 @@
 //
-//  YLBAppDelegate.m
-//  YLBDesign
+//  AppDelegate.m
+//  YLBDesign_Example
 //
-//  Created by 余礼钵 on 10/02/2022.
-//  Copyright (c) 2022 余礼钵. All rights reserved.
+//  Created by 余礼钵 on 2022/10/4.
+//  Copyright © 2022 余礼钵. All rights reserved.
 //
 
-#import "YLBAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation YLBAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //super的位置决定当前AppDelegate的优先级是否最高，放在最底部表示当前AppDelegate优先级最高
+    [super application:application didFinishLaunchingWithOptions:launchOptions];
+    
     return YES;
 }
 

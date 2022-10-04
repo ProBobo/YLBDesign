@@ -4,10 +4,57 @@ source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
 platform :ios, '10.0'
 
+def remotePod
+  # 业务模块
+  ## 首页模块
+  pod 'YLBDHome', :git =>'https://github.com/YuliboTeam/YLBDHome.git'
+  ## 个人中心模块
+  pod 'YLBDMine', :git => 'https://github.com/YuliboTeam/YLBDMine.git'
+  
+  # 业务基础组件
+  pod 'YLBDBasePod', :git => 'https://github.com/YuliboTeam/YLBDBasePod.git'
+  
+  # 架构服务组件：属于YLBModule需要注册的协议
+  pod 'YLBDServices', :git => 'https://github.com/YuliboTeam/YLBDServices.git'
+  
+  # 用于展示路由跳转
+  pod 'YLBDDetail', :git => 'https://github.com/YuliboTeam/YLBDDetail.git'
+  
+  # 路由跳转
+  pod 'YLBDRouter', :git => 'https://github.com/YuliboTeam/YLBDRouter.git'
+  
+end
+
+def localPod
+  eval(File.read("../../LocalPod/Design/LocalPath.rb"))
+end
+
 target 'YLBDesign_Example' do
   pod 'YLBDesign', :path => '../'
   
+  #判断是否存在本地库
+  flag = File::exists?( "../../LocalPod/Design/LocalPath.rb")
   
+  if flag
+    localPod
+  else
+    remotePod
+  end
+  
+  
+  # 基础库
+  pod 'YLBCommon', :git =>'https://github.com/ProBobo/YLBCommon.git'
+  pod 'YLBProUI', :git => 'https://github.com/YuliboTeam/YLBProUI.git'
+  
+  # 架构组件
+  ## 基础组件
+  pod 'YLBModule', :git => 'https://github.com/ProBobo/YLBModule.git'
+  pod 'JLRoutes', :git => 'https://github.com/joeldev/JLRoutes.git'
+  
+  ## 小程序
+  
+  
+  # 第三方库
   pod 'QMUIKit'
   
   

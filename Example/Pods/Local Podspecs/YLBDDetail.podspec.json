@@ -1,0 +1,27 @@
+{
+  "name": "YLBDDetail",
+  "version": "0.1.0",
+  "summary": "YLBDDetail.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YuliboTeam/YLBDDetail",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "余礼钵": "564885081@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/YuliboTeam/YLBDDetail.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "YLBDDetail/Classes/**/*",
+  "dependencies": {
+    "YLBDBasePod": [
+
+    ]
+  }
+}

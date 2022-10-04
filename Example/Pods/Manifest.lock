@@ -1,4 +1,6 @@
 PODS:
+  - JLRoutes (2.1)
+  - MJExtension (3.4.1)
   - QMUIKit (4.3.0):
     - QMUIKit/QMUIComponents (= 4.3.0)
     - QMUIKit/QMUICore (= 4.3.0)
@@ -310,24 +312,101 @@ PODS:
     - QMUIKit/QMUILog
   - QMUIKit/QMUIResources (4.3.0)
   - QMUIKit/QMUIWeakObjectContainer (4.3.0)
-  - YLBDesign (0.1.0)
+  - YLBCommon (1.0.0)
+  - YLBDBasePod (0.1.0):
+    - JLRoutes
+    - MJExtension
+    - QMUIKit
+    - YLBCommon
+    - YLBDServices
+    - YLBModule
+    - YLBProUI
+  - YLBDDetail (0.1.0):
+    - YLBDBasePod
+  - YLBDesign (0.1.0):
+    - YLBDBasePod
+  - YLBDHome (0.1.0):
+    - YLBDBasePod
+  - YLBDMine (0.1.0):
+    - YLBDBasePod
+  - YLBDRouter (0.1.0)
+  - YLBDServices (0.1.0)
+  - YLBModule (0.2.0)
+  - YLBProUI (0.1.0):
+    - YLBCommon
 
 DEPENDENCIES:
+  - JLRoutes (from `https://github.com/joeldev/JLRoutes.git`)
   - QMUIKit
+  - YLBCommon (from `https://github.com/ProBobo/YLBCommon.git`)
+  - YLBDBasePod (from `../../YLBDBasePod`)
+  - YLBDDetail (from `../../YLBDDetail`)
   - YLBDesign (from `../`)
+  - YLBDHome (from `../../YLBDHome`)
+  - YLBDMine (from `../../YLBDMine`)
+  - YLBDRouter (from `../../YLBDRouter`)
+  - YLBDServices (from `../../YLBDServices`)
+  - YLBModule (from `https://github.com/ProBobo/YLBModule.git`)
+  - YLBProUI (from `https://github.com/YuliboTeam/YLBProUI.git`)
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - MJExtension
     - QMUIKit
 
 EXTERNAL SOURCES:
+  JLRoutes:
+    :git: https://github.com/joeldev/JLRoutes.git
+  YLBCommon:
+    :git: https://github.com/ProBobo/YLBCommon.git
+  YLBDBasePod:
+    :path: "../../YLBDBasePod"
+  YLBDDetail:
+    :path: "../../YLBDDetail"
   YLBDesign:
     :path: "../"
+  YLBDHome:
+    :path: "../../YLBDHome"
+  YLBDMine:
+    :path: "../../YLBDMine"
+  YLBDRouter:
+    :path: "../../YLBDRouter"
+  YLBDServices:
+    :path: "../../YLBDServices"
+  YLBModule:
+    :git: https://github.com/ProBobo/YLBModule.git
+  YLBProUI:
+    :git: https://github.com/YuliboTeam/YLBProUI.git
+
+CHECKOUT OPTIONS:
+  JLRoutes:
+    :commit: bc50a7ce4af0e819e559c41e5e0740e5c51f0ab0
+    :git: https://github.com/joeldev/JLRoutes.git
+  YLBCommon:
+    :commit: d84f498994d10ff0194d61057d8fa7131b0ae47a
+    :git: https://github.com/ProBobo/YLBCommon.git
+  YLBModule:
+    :commit: dec32d8889b1be0f90d4e0226f49d2847c133dc5
+    :git: https://github.com/ProBobo/YLBModule.git
+  YLBProUI:
+    :commit: becd1584c44d17d64e29b522ccba70c3decf98dd
+    :git: https://github.com/YuliboTeam/YLBProUI.git
 
 SPEC CHECKSUMS:
+  JLRoutes: ca01527f1bd92e3016699c0f2be084d7ee11e01a
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   QMUIKit: 67888be9aa0ee0b12b8a219fcea2eec900afd841
-  YLBDesign: 6b6cd5d4976f02d70ab33796f8eacfc4910d7495
+  YLBCommon: f80ff98015ea7f41ad0c1d7601dac18a6e939a05
+  YLBDBasePod: 5f58b55989585de29d118545cadb18e41c73c778
+  YLBDDetail: a9b0e97b83d8356ef6c299014bc51e961be083c8
+  YLBDesign: c2fa8f3d2f983416f0cd51955acaf8db54085343
+  YLBDHome: 29c572a01957650174018b7e0238e224650a4467
+  YLBDMine: c57eb4016ee6f3a9a56c6ed496fcad56dcca631d
+  YLBDRouter: 4c3a2c22c71466380c24f2e56dc5850561471137
+  YLBDServices: 7a3ac8000b966fdc07c6b7f147cdc8779fe76bd6
+  YLBModule: 18ea2d791e8e5c672bdd9f39c711234935475e7c
+  YLBProUI: f1c059b8d3151e8a6a5bdf0fba329d2e3e5bb020
 
-PODFILE CHECKSUM: a1b7f2e627977f2c131f38e39e3393ad7e0d616e
+PODFILE CHECKSUM: 865ae5dec7531391a2e8c28695a2e640b83fbd75
 
 COCOAPODS: 1.11.2

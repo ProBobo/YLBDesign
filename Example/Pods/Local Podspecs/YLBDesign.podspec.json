@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "YLBDesign/Classes/**/*"
+  "source_files": "YLBDesign/Classes/**/*",
+  "resource_bundles": {
+    "YLBDesign": [
+      "YLBDesign/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "YLBDBasePod": [
+
+    ]
+  }
 }
