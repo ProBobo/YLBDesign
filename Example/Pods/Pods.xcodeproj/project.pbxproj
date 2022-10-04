@@ -15,7 +15,6 @@
 			dependencies = (
 			);
 			name = YLBDServices;
-			productName = YLBDServices;
 		};
 /* End PBXAggregateTarget section */
 
@@ -80,6 +79,7 @@
 		1C946D3CA24514116603483B56D3B84B /* QMUIImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041CE30AE56317694C32EEEDBF715DCF /* QMUIImagePreviewViewController.m */; };
 		1CBD4DD3B07B33CBCB832F81FEA25ECD /* NSObject+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 10472C79483DF12843ADEDDBAF3BF843 /* NSObject+QMUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1D14FDF649C8DD6E1F1DCAF18956618C /* YLBDesignNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD7A5A0D48B6A6349EB3578ACFE96E01 /* YLBDesignNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DD41DF016EA9B1E9AC3A579C7DF469F /* YLBDRouterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EFF2FE3741EC29BE7386F192EBDF23 /* YLBDRouterConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1E0103C55D0FEE4303CEA280C38CF926 /* NSCharacterSet+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A08A9C5E83DC0AE6CE5BEF41A81E8118 /* NSCharacterSet+QMUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1EA0884A478E76713F63D1383137BFD6 /* YLBWhiteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0073839379CA020EB328F22BEC1D794D /* YLBWhiteController.m */; };
 		1F12501231DE1B0CBA9ED5312536A4E3 /* UIViewController+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE0C9235E159CBE6CE74111D02A348 /* UIViewController+QMUI.m */; };
@@ -120,6 +120,7 @@
 		3244D445435E598B46738F5B7BDB2D3B /* YLBTransparentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EB3FC970FFBEF283D6A8F5C142734 /* YLBTransparentController.m */; };
 		3327BAAD2D24CEF53AE72F8C2CD34204 /* YLBModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F5239EAB4334C40FB1EC46248180E270 /* YLBModuleProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		332E24FC6A4B7993D0A4D981B4A6619C /* QMUIWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F486D4CB9760483E124A95EBD5C0E0C /* QMUIWeakObjectContainer.m */; };
+		33395053C2C30D0B7A3D0F4F51DE8D05 /* YLBDRouterHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CFC2F9687DBE7D2E76333C7B5B4AC /* YLBDRouterHandle.m */; };
 		33C05CC9D26BE4AFEA35B0471BFA35C8 /* UIImage+QMUITheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA65C33E870919FCA24C9FA76C6D72F /* UIImage+QMUITheme.m */; };
 		340572007AA873E073E1C9B366ACD864 /* UIApplication+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCEECDA9046E2D02FFD475E4494166B /* UIApplication+QMUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		345314BF21726122F914DD35279F4655 /* NSPointerArray+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D8008137A9FC8F7B31ACC497A98EC337 /* NSPointerArray+QMUI.m */; };
@@ -144,6 +145,7 @@
 		3E06D8FDA46033D56CBFF20CC6611902 /* QMUINavigationBarScrollingSnapAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF875D97DBB33DDE51AD9C948D49C7A5 /* QMUINavigationBarScrollingSnapAnimator.m */; };
 		3F18FCBE721D6261159CBCAB3BDBC8A8 /* QMUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBEEAD16C3D6C129E14C9B28AE58B5A /* QMUIKit-dummy.m */; };
 		4052BA43C4EA5B273D02FAFC1F1EF291 /* JLRRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DD6F0686D813CEF96549C8F364D74E /* JLRRouteResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		408C72D085A1BBB243D5745383708BEA /* YLBDRouterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9B15272D371F07F7991480F3C158A9 /* YLBDRouterConfig.m */; };
 		40AA24AEE84AD9A5DC302D4B53C58560 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 22791FCF7977CBF738CDD94E6EACAE80 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		41678B6D4CB339A90D2605E6F76BFA05 /* QMUIPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B53D22F9B0428C0CA3D446634331697 /* QMUIPieProgressView.m */; };
 		41CDA253A80AB7E6BCB3DC22EC6D8B92 /* YLBUnCopyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A8658814B1835704CF441A869C8DA2D /* YLBUnCopyTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -285,6 +287,7 @@
 		9735B7AE32A3DD1CC52DEB9CDA9A7F05 /* QMUIPieProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92460CD0FE25F9953BDF39A7D55E2318 /* QMUIPieProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		975B05C3B709784CB725D884AEC5BCE7 /* YLBUnCopyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F61B68C1CE29E20A630D4CA2A29549E /* YLBUnCopyTextField.m */; };
 		97CB9512F96772278250B5210380C86F /* QMUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DF71D62C7DE1D56F634CF65FFE06A921 /* QMUILabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98764B1C0E168DD198CECE0DC0D946AD /* YLBDRouterHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBDD4CE9615C24FD026A22275A96959 /* YLBDRouterHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9900503FCE916C01D1DDDF22BF851C49 /* QMUICellHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC2B6ABA663DED8836AD8A49EB61AA2 /* QMUICellHeightCache.m */; };
 		99720CBD0C0B00BA33ED3E5D2BAF537C /* QMUINavigationBarScrollingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFD1F219AF2A7DD9CB0133FE4F45A32 /* QMUINavigationBarScrollingAnimator.m */; };
 		99FCA22258CCBD93B7F1122E1809980E /* QMUIToastContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C944AACBE5E888E1A1F2A021B5993C /* QMUIToastContentView.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -331,7 +334,6 @@
 		B17BB042B4FA6BE37429437604168344 /* YLBBundleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E197610F01E40CC9B0D0E2D92A1023 /* YLBBundleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B24CC44D7C55C05D028B39D06D93AC0F /* UIView+QMUIBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2816079AE762421DA732852FFD17FB /* UIView+QMUIBorder.m */; };
 		B2FFA43AD8D134007F36C989299D9A65 /* QMUICommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C88C92CFB61F0733D80B7264E2488BE8 /* QMUICommonDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B36A031606C2C9EBF5F7E2764FF7ED3E /* YLBDRouterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EFF2FE3741EC29BE7386F192EBDF23 /* YLBDRouterConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B3EEA40FA6D428E0352CFF3AC8DA6144 /* YLBDMineAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 150F323D792894CB23DB12257286647A /* YLBDMineAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B472AF2E2779F33B62BE82B95E467AB3 /* QMUIImagePickerCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E3DD397380731C91420CEFE5D9692B /* QMUIImagePickerCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B482A1E109CC27A37D41A5048D6D28EA /* QMUIDisplayLinkAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB87347F8BA6D70E47EA06599E0092A /* QMUIDisplayLinkAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -373,7 +375,6 @@
 		C5C61F658078B80C4D3DF75977B25E23 /* QMUIToastAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A8891D8A7B345818A145085390B0F8 /* QMUIToastAnimator.m */; };
 		C5CF1068B5C5DA9BB5A712D4E207B745 /* QMUIMarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB4C55E7FCAE68E60270FE45F555AC9 /* QMUIMarqueeLabel.m */; };
 		C7644C7DF766D3693A6E7B07B448B14E /* YLBNavigationBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA6CE56613DB5E2C52E42DC6C934242 /* YLBNavigationBarView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C8AC43BCF20E0173AE8CA2E6A529C1D3 /* YLBDRouterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9B15272D371F07F7991480F3C158A9 /* YLBDRouterConfig.m */; };
 		C8FB80C7DEDA5D8C8C91132E8D5B6DA6 /* UISearchBar+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8CEC3F06FB8DE51759ADB5D9134674 /* UISearchBar+QMUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C9224B4E05C5AA3A9B37D0266F4EC407 /* NSString+YLBAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A2C7907FEBCCB8E65787E7CE77C163 /* NSString+YLBAttribute.m */; };
 		CB6EFB2E61C110F67069234ACC6890A0 /* UICollectionView+QMUICellSizeKeyCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9B6B1C410B0FED61CEA1AD780F15E3 /* UICollectionView+QMUICellSizeKeyCache.m */; };
@@ -406,11 +407,11 @@
 		DB36674B0F167FDAE93AC0542A0E903B /* QMUICollectionViewPagingLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F77EADE640F83AB335AB5FA96AF10F86 /* QMUICollectionViewPagingLayout.m */; };
 		DB4E3CB51392EE1927758C0C5CC54B2B /* QMUIZoomImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F315C67E533E877FFD60DA5F8B60B343 /* QMUIZoomImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DC9F49E4D294A360F3813FE0C2DF56C0 /* UIMenuController+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0381E311838B2F377763579D76559432 /* UIMenuController+QMUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE64AD24653AEAA18EA18760C54A21DD /* YLBDRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA955BCD22058750A16A6C73EC8CB181 /* YLBDRouter-dummy.m */; };
 		DE871D878515F65445DD7E9A7CC25C23 /* YLBDDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82A4157902E2B4E0568DE3AA5CD7EF /* YLBDDetail-dummy.m */; };
 		DF1D8B1ED1C517D8365333862499F1EB /* UIColor+QMUITheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3D37EEDC5777E60774D51A4C0952D /* UIColor+QMUITheme.m */; };
 		E0CC43D5508582DD5560E8CCA83A29D6 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 123B9B41F719058AB18831E11B072492 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E1057B6B35FDA6497C40C31CDD40985B /* QMUITips.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C15F06F276A94EC34D89B4B3048BCB /* QMUITips.m */; };
-		E17923129F7DB8245D0C9FCE8E3C0C2F /* YLBDRouterHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CFC2F9687DBE7D2E76333C7B5B4AC /* YLBDRouterHandle.m */; };
 		E1B86EA9ECFFF077869725B5DFA2E7BD /* YLBDBundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D30A2F3A54B0E21C657AFAD7F91F799 /* YLBDBundleManager.m */; };
 		E1BC6E2A594D6E1A9D939FEAA3E49790 /* QMUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1146E67451A6354146601FADDF1300F2 /* QMUITextField.m */; };
 		E22FF83DDAEB19D53C318B2A212801EB /* UINavigationController+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 10DA7742DC88A872B88D5312B60DF3B0 /* UINavigationController+QMUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -440,7 +441,6 @@
 		ED3EAE5604A89D9A154FBE43DFECF98A /* YLBHorizontalView.h in Headers */ = {isa = PBXBuildFile; fileRef = F53C56BE3D2A2FAB820721FEB92B5251 /* YLBHorizontalView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ED716281519BD7E233A02A2D16DB8150 /* UIBezierPath+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A9280B8F58CCE0BFBDEE89CF71D787E9 /* UIBezierPath+QMUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EDAA30139307A87D0BC58FFA93451D77 /* CALayer+QMUIViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2975B7F2AB6CA5B4A4B4069678C44A /* CALayer+QMUIViewAnimation.m */; };
-		EE47DF14C3DB68F0633F53B27235AF21 /* YLBDRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA955BCD22058750A16A6C73EC8CB181 /* YLBDRouter-dummy.m */; };
 		EE6A0441D88B8742892A28424ED91E77 /* YLBFrequeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C917267A6DACF6ECB19BDD24A68C11D /* YLBFrequeControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EF305C98C06D04A7F6939ADF03789E88 /* YLBDHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8402E2A25D0DAF594EC4A1524213D0 /* YLBDHome-dummy.m */; };
 		EF4BBC1CDE60BDFBE1FEC78197AC8D11 /* QMUIBadgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E74DE3D1C53FA68023EBA357F3FA8716 /* QMUIBadgeProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -474,7 +474,6 @@
 		FBB655CE60CF93B3F070741AA3C9D9ED /* QMUIFillButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E426B1FF98311498142BD6DA7B2FD /* QMUIFillButton.m */; };
 		FC2B0127593EBB594C2E91420011F04A /* YLBAnimationDelegateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E856CAA14531D018A8618727D91CE96 /* YLBAnimationDelegateManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FDC1E3CF236451990C8F2462A82DED48 /* UIView+YLBShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = B14B123A00F55195C721DAB5DE3838B9 /* UIView+YLBShadow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FE1698F803B654698247A182E6DE516B /* YLBDRouterHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBDD4CE9615C24FD026A22275A96959 /* YLBDRouterHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FEEC4E8A54DB29675568E7A7E03D5312 /* CAAnimation+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5835C42E09C19B321EF00A9449EE0517 /* CAAnimation+QMUI.m */; };
 		FF04182F609BF2293396696D9228871E /* QMUIAlbumViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E625410ADE8CDB1B3D57B205814D4B3B /* QMUIAlbumViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FF364EB8F84E4735172FEFB126F46C31 /* QMUILab.h in Headers */ = {isa = PBXBuildFile; fileRef = C885B58FA59F48BC8D448B4598DC2297 /* QMUILab.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -629,6 +628,13 @@
 			remoteGlobalIDString = 36AAEBA7F5177C97C5BFBCB0013455EA;
 			remoteInfo = YLBDBasePod;
 		};
+		D059AC07DE1EBCEBBADE4B3DA3F28766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C1BAA17BCEBC27586488A205D2E0CB;
+			remoteInfo = JLRoutes;
+		};
 		D0F178B7C8C4A97279A5743B098E214B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -769,7 +775,7 @@
 		2AA1C0F4B1AF429A0FF114E94419030B /* NSString+YLBAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YLBAttribute.h"; path = "YLBCommon/Classes/String/NSString+YLBAttribute.h"; sourceTree = "<group>"; };
 		2B2535F63C67AB622E357C01C6BE7571 /* YLBProUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLBProUI.h; path = YLBProUI/Classes/YLBProUI.h; sourceTree = "<group>"; };
 		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MJExtension; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BAFEAF51FF9E761CEB81B171555BA27 /* ImageRes */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ImageRes; path = YLBDesign/Assets/ImageRes; sourceTree = "<group>"; };
+		2BAFEAF51FF9E761CEB81B171555BA27 /* ImageRes */ = {isa = PBXFileReference; includeInIndex = 1; name = ImageRes; path = YLBDesign/Assets/ImageRes; sourceTree = "<group>"; };
 		2C7CDCCF21B64BFE2CECE38BFB400FDD /* YLBDMineController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLBDMineController.m; path = YLBDMine/Classes/YLBDMineController.m; sourceTree = "<group>"; };
 		2C7EF7764F081DEF6EF7A702813B5BBE /* UIImage+YLBSystemShareToWX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YLBSystemShareToWX.m"; path = "YLBCommon/Classes/Image/UIImage+YLBSystemShareToWX.m"; sourceTree = "<group>"; };
 		2C806845452C9B3344C1DD3978A2C83F /* QMUINavigationTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUINavigationTitleView.h; path = QMUIKit/QMUIComponents/QMUINavigationTitleView.h; sourceTree = "<group>"; };
@@ -899,7 +905,7 @@
 		6C6C586EE041DA30CE0C546665D7BC1F /* UIView+YLBColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YLBColor.h"; path = "YLBCommon/Classes/View/UIView+YLBColor.h"; sourceTree = "<group>"; };
 		6C917267A6DACF6ECB19BDD24A68C11D /* YLBFrequeControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLBFrequeControl.h; path = YLBCommon/Classes/Frequent/YLBFrequeControl.h; sourceTree = "<group>"; };
 		6CB668962748DA51382BBA663D98621C /* NSArray+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSArray+QMUI.m"; sourceTree = "<group>"; };
-		6D202A2CD39CFA290D82B72236F3EA38 /* YLBDesign.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YLBDesign.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		6D202A2CD39CFA290D82B72236F3EA38 /* YLBDesign.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YLBDesign.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6D30A2F3A54B0E21C657AFAD7F91F799 /* YLBDBundleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLBDBundleManager.m; sourceTree = "<group>"; };
 		6D99D619DA64208B2727DF85A16C1508 /* UIBarItem+QMUIBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarItem+QMUIBadge.m"; path = "QMUIKit/QMUIComponents/QMUIBadge/UIBarItem+QMUIBadge.m"; sourceTree = "<group>"; };
 		6D9B6B1C410B0FED61CEA1AD780F15E3 /* UICollectionView+QMUICellSizeKeyCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+QMUICellSizeKeyCache.m"; path = "QMUIKit/QMUIComponents/QMUICellSizeKeyCache/UICollectionView+QMUICellSizeKeyCache.m"; sourceTree = "<group>"; };
@@ -950,7 +956,7 @@
 		8295EB62887D2F33484DC300858AD75C /* JLRRouteResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteResponse.m; path = JLRoutes/JLRRouteResponse.m; sourceTree = "<group>"; };
 		82BC2E8431016520DAEFFAE222BF0EC9 /* QMUIImagePickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePickerViewController.h; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerViewController.h; sourceTree = "<group>"; };
 		8301AA029D2871C6564B7CE38806D861 /* Pods-YLBDesign_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLBDesign_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8310159932A78C7F0B27DA26B8C39D2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8310159932A78C7F0B27DA26B8C39D2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		835BE05BD4B4357DFAE99DDC8C0D3391 /* QMUITextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITextView.h; path = QMUIKit/QMUIComponents/QMUITextView.h; sourceTree = "<group>"; };
 		8381B5DAE5B09EFFC58980BD787328B5 /* YLBProUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLBProUI.debug.xcconfig; sourceTree = "<group>"; };
 		8423067C8A70C610341C94955CB13309 /* QMUINavigationBarScrollingAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUINavigationBarScrollingAnimator.h; path = QMUIKit/QMUIComponents/QMUIScrollAnimator/QMUINavigationBarScrollingAnimator.h; sourceTree = "<group>"; };
@@ -997,7 +1003,7 @@
 		9C653CE1A921747093C88DB97F9CFA44 /* YLBDHomeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLBDHomeController.m; path = YLBDHome/Classes/YLBDHomeController.m; sourceTree = "<group>"; };
 		9CCEECDA9046E2D02FFD475E4494166B /* UIApplication+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIApplication+QMUI.h"; sourceTree = "<group>"; };
 		9D37D7CF6F5A39D2AF136BA34DED1C95 /* JLRParsingUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRParsingUtilities.m; path = JLRoutes/JLRParsingUtilities.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DDA228046965607EBCB60BDEC11C279 /* YLBFrequeControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLBFrequeControl.m; path = YLBCommon/Classes/Frequent/YLBFrequeControl.m; sourceTree = "<group>"; };
 		9E32F75DDB2D0D4FCCD55C58C113A8BF /* UIView+YLBShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YLBShadow.m"; path = "YLBCommon/Classes/View/UIView+YLBShadow.m"; sourceTree = "<group>"; };
 		9E6A3177A4ED91C948DD9D70F24DA664 /* QMUIToolbarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIToolbarButton.m; path = QMUIKit/QMUIComponents/QMUIButton/QMUIToolbarButton.m; sourceTree = "<group>"; };
@@ -1087,7 +1093,7 @@
 		C3D2BEEDB7AE9712C96B469DF48E81BE /* QMUIImagePreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePreviewViewController.h; path = QMUIKit/QMUIComponents/QMUIImagePreviewView/QMUIImagePreviewViewController.h; sourceTree = "<group>"; };
 		C3D837EACD163D3BDCAB2EAF008667F7 /* YLBServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLBServiceManager.m; path = YLBModule/Classes/YLBServiceManager.m; sourceTree = "<group>"; };
 		C42F68C2DE4EA413AF5C15F3003EF669 /* UISwitch+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISwitch+QMUI.h"; path = "QMUIKit/UIKitExtensions/UISwitch+QMUI.h"; sourceTree = "<group>"; };
-		C48A52E0ADF3D44611550F52FEE44519 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C48A52E0ADF3D44611550F52FEE44519 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C4A447438CBE06DFC624E38F59356096 /* YLBCommon */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = YLBCommon; path = libYLBCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C504736E928483DD1C1FB7F57580D735 /* NSURL+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSURL+QMUI.m"; sourceTree = "<group>"; };
 		C539962E6D396CAF1C41A67A569BE281 /* CALayer+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+QMUI.m"; path = "QMUIKit/UIKitExtensions/CALayer+QMUI.m"; sourceTree = "<group>"; };
@@ -1245,14 +1251,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79C2D01CBE2FF06586FD9BA44370140F /* Frameworks */ = {
+		3B4966E4520666A5506FE339F7163156 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83E932DC20F5682A9243CF66A931AAD2 /* Frameworks */ = {
+		79C2D01CBE2FF06586FD9BA44370140F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1368,6 +1374,7 @@
 				C3D837EACD163D3BDCAB2EAF008667F7 /* YLBServiceManager.m */,
 				480C02E2A7B37CEF04ED5E107AA589AE /* Support Files */,
 			);
+			name = YLBModule;
 			path = YLBModule;
 			sourceTree = "<group>";
 		};
@@ -1413,6 +1420,7 @@
 				547327E6CFD72B5766EFB0B652033837 /* YLBDRouterProtocol.h */,
 				B1606C3A27BD07766FA2F5C0DFE1688C /* Support Files */,
 			);
+			name = YLBDServices;
 			path = YLBDServices;
 			sourceTree = "<group>";
 		};
@@ -1453,6 +1461,7 @@
 				2B2535F63C67AB622E357C01C6BE7571 /* YLBProUI.h */,
 				AC471071213520B70B9728FEF9663D81 /* Support Files */,
 			);
+			name = YLBProUI;
 			path = YLBProUI;
 			sourceTree = "<group>";
 		};
@@ -1617,6 +1626,7 @@
 				47BA26888B204078CDB5860B818C85C4 /* ReplaceMe.m */,
 				49D83CFC45A48D2B3BA6072FCE3AC91B /* Support Files */,
 			);
+			name = YLBDBasePod;
 			path = YLBDBasePod;
 			sourceTree = "<group>";
 		};
@@ -1650,6 +1660,7 @@
 				6A431F23EE0CB4613091B0C52414DA25 /* YLBDDetailController.m */,
 				524429D9C629FBCD5101CE7E5DF9A170 /* Support Files */,
 			);
+			name = YLBDDetail;
 			path = YLBDDetail;
 			sourceTree = "<group>";
 		};
@@ -1765,6 +1776,7 @@
 				AA17735F1EB3B7709269D187D0B8D937 /* NSString+MJExtension.m */,
 				1E50FE04DE7E4637CFA85EAB34AD9ADE /* Support Files */,
 			);
+			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -1818,6 +1830,7 @@
 				8295EB62887D2F33484DC300858AD75C /* JLRRouteResponse.m */,
 				E9D203DD99E319A604A4C43BA5883133 /* Support Files */,
 			);
+			name = JLRoutes;
 			path = JLRoutes;
 			sourceTree = "<group>";
 		};
@@ -1839,6 +1852,7 @@
 				8C3CFC2F9687DBE7D2E76333C7B5B4AC /* YLBDRouterHandle.m */,
 				54992361FEC65B12EBB3D8708EB0E7C4 /* Support Files */,
 			);
+			name = YLBDRouter;
 			path = YLBDRouter;
 			sourceTree = "<group>";
 		};
@@ -1872,6 +1886,7 @@
 				1752E18A17D804CB746D44B5287C51B9 /* QMUIWeakObjectContainer */,
 				7E475254DDEAE6D306CB573532E021BD /* Support Files */,
 			);
+			name = QMUIKit;
 			path = QMUIKit;
 			sourceTree = "<group>";
 		};
@@ -2275,6 +2290,7 @@
 				2C7CDCCF21B64BFE2CECE38BFB400FDD /* YLBDMineController.m */,
 				61D026C7E474118B3E5B3481175BF34D /* Support Files */,
 			);
+			name = YLBDMine;
 			path = YLBDMine;
 			sourceTree = "<group>";
 		};
@@ -2601,6 +2617,7 @@
 				0073839379CA020EB328F22BEC1D794D /* YLBWhiteController.m */,
 				E6DC11927F90FB7466ECCE8B0F3ADEA4 /* Support Files */,
 			);
+			name = YLBCommon;
 			path = YLBCommon;
 			sourceTree = "<group>";
 		};
@@ -2677,6 +2694,7 @@
 				9C653CE1A921747093C88DB97F9CFA44 /* YLBDHomeController.m */,
 				3965359EBDA3894AD143240A08634859 /* Support Files */,
 			);
+			name = YLBDHome;
 			path = YLBDHome;
 			sourceTree = "<group>";
 		};
@@ -2787,12 +2805,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC5B757FFC8572C80D8D5BDA305A7F85 /* Headers */ = {
+		DBD373CDD34A9E39A5E0426746671576 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B36A031606C2C9EBF5F7E2764FF7ED3E /* YLBDRouterConfig.h in Headers */,
-				FE1698F803B654698247A182E6DE516B /* YLBDRouterHandle.h in Headers */,
+				1DD41DF016EA9B1E9AC3A579C7DF469F /* YLBDRouterConfig.h in Headers */,
+				98764B1C0E168DD198CECE0DC0D946AD /* YLBDRouterHandle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3246,15 +3264,16 @@
 		};
 		D86756B4CD3B448D740410447FE184AF /* YLBDRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDB787DDC201B0D92145ADC731782FF8 /* Build configuration list for PBXNativeTarget "YLBDRouter" */;
+			buildConfigurationList = 02383DD13213143930DE57832A76B356 /* Build configuration list for PBXNativeTarget "YLBDRouter" */;
 			buildPhases = (
-				DC5B757FFC8572C80D8D5BDA305A7F85 /* Headers */,
-				D6B72D04CB70EB1A58884F35F22B6AA8 /* Sources */,
-				83E932DC20F5682A9243CF66A931AAD2 /* Frameworks */,
+				DBD373CDD34A9E39A5E0426746671576 /* Headers */,
+				A03186334B4689E5FFE1EECD50A0A2BC /* Sources */,
+				3B4966E4520666A5506FE339F7163156 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0D76724B8E263F8B40D5C3FD63B3B2BB /* PBXTargetDependency */,
 			);
 			name = YLBDRouter;
 			productName = YLBDRouter;
@@ -3623,6 +3642,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A03186334B4689E5FFE1EECD50A0A2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE64AD24653AEAA18EA18760C54A21DD /* YLBDRouter-dummy.m in Sources */,
+				408C72D085A1BBB243D5745383708BEA /* YLBDRouterConfig.m in Sources */,
+				33395053C2C30D0B7A3D0F4F51DE8D05 /* YLBDRouterHandle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A600B583A7AAEFF721EBF5F63160AFA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3696,16 +3725,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6B72D04CB70EB1A58884F35F22B6AA8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE47DF14C3DB68F0633F53B27235AF21 /* YLBDRouter-dummy.m in Sources */,
-				C8AC43BCF20E0173AE8CA2E6A529C1D3 /* YLBDRouterConfig.m in Sources */,
-				E17923129F7DB8245D0C9FCE8E3C0C2F /* YLBDRouterHandle.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E751C23F858409B19ADA58690E19CAFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3724,6 +3743,12 @@
 			name = YLBDesign;
 			target = 92C2B65EA7240E6B0456B5F5ABF64227 /* YLBDesign */;
 			targetProxy = 6391E44BBCDDC48219CD6D3E540BB717 /* PBXContainerItemProxy */;
+		};
+		0D76724B8E263F8B40D5C3FD63B3B2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLRoutes;
+			target = 94C1BAA17BCEBC27586488A205D2E0CB /* JLRoutes */;
+			targetProxy = D059AC07DE1EBCEBBADE4B3DA3F28766 /* PBXContainerItemProxy */;
 		};
 		1275A959885397E9262B49FE1E07B6DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4004,6 +4029,32 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = YLBCommon;
 				PRODUCT_NAME = YLBCommon;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBF98DF9D86FF45A5A7158D349D6FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8BAD61C24071476E32BDE10E3E271A /* YLBDRouter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YLBDRouter/YLBDRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YLBDRouter;
+				PRODUCT_NAME = YLBDRouter;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -4305,31 +4356,6 @@
 			};
 			name = Debug;
 		};
-		683500D3B51FB47DC231913FBBC4D0C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBEBD78080AC31B418F64022F026D004 /* YLBDRouter.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YLBDRouter/YLBDRouter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YLBDRouter;
-				PRODUCT_NAME = YLBDRouter;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		691905BDDA67F08D82A297DACA480B56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FBF5D02E4603B90DCE81212443EA25F8 /* QMUIKit.release.xcconfig */;
@@ -4484,7 +4510,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -4505,32 +4532,6 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = YLBModule;
 				PRODUCT_NAME = YLBModule;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A6297756234060C1E8B76ECBE77CD9E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D8BAD61C24071476E32BDE10E3E271A /* YLBDRouter.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YLBDRouter/YLBDRouter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YLBDRouter;
-				PRODUCT_NAME = YLBDRouter;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -4735,6 +4736,31 @@
 			};
 			name = Release;
 		};
+		F6F7579E3AD4D5100A701B759A6C6D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBEBD78080AC31B418F64022F026D004 /* YLBDRouter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YLBDRouter/YLBDRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YLBDRouter;
+				PRODUCT_NAME = YLBDRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		F944C5D2F9AE4D85B3F02469367DDDBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 705829D6658085040A0F58674ECB6E66 /* JLRoutes.release.xcconfig */;
@@ -4811,6 +4837,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02383DD13213143930DE57832A76B356 /* Build configuration list for PBXNativeTarget "YLBDRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F7579E3AD4D5100A701B759A6C6D93 /* Debug */,
+				2FBF98DF9D86FF45A5A7158D349D6FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0EE6E59E18FDEDF2E659D1BA121C50BB /* Build configuration list for PBXNativeTarget "YLBDDetail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4942,15 +4977,6 @@
 			buildConfigurations = (
 				66AEF50CAD2B408240C1EFE420D0B8B9 /* Debug */,
 				E417865FB95D99FD260193C61AA66C1C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EDB787DDC201B0D92145ADC731782FF8 /* Build configuration list for PBXNativeTarget "YLBDRouter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				683500D3B51FB47DC231913FBBC4D0C9 /* Debug */,
-				A6297756234060C1E8B76ECBE77CD9E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

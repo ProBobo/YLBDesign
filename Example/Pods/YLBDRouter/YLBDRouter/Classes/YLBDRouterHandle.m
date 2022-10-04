@@ -8,7 +8,7 @@
 #import "YLBDRouterHandle.h"
 
 #import <JLRoutes/JLRoutes.h>
-#import <YLBCommon/YLBCommon.h>
+//#import <YLBCommon/YLBCommon.h>
 
 #define YLBDIsString(s) !((s == nil || [s isKindOfClass:[NSNull class]] || ([s isKindOfClass:[NSString class]] && s.length == 0)))
 
@@ -194,7 +194,7 @@
     UIViewController* currentVC = [self YLBDFindVisibleViewController];
     NSString *segue = parameters[kYLBDVCRouteSegue] ? parameters[kYLBDVCRouteSegue] : kYLBDVCRouteSeguePush; //  决定 present 或者 Push; 默认值 Push
     BOOL animated = parameters[kYLBDVCRouteAnimated] ? [parameters[kYLBDVCRouteAnimated] boolValue] : YES;  // 转场动画;
-    YLBDLog(@"%s 跳转: %@ %@ %@",__func__ ,currentVC, segue,vc);
+//    YLBDLog(@"%s 跳转: %@ %@ %@",__func__ ,currentVC, segue,vc);
     
     if ([segue isEqualToString:kYLBDVCRouteSeguePush]) { //PUSH
         if (currentVC.navigationController) {

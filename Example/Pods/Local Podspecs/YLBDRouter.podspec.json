@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "YLBDRouter/Classes/**/*"
+  "source_files": "YLBDRouter/Classes/**/*",
+  "dependencies": {
+    "JLRoutes": [
+
+    ]
+  }
 }

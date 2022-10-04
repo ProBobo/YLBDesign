@@ -329,7 +329,8 @@ PODS:
     - YLBDBasePod
   - YLBDMine (0.1.0):
     - YLBDBasePod
-  - YLBDRouter (0.1.0)
+  - YLBDRouter (0.1.0):
+    - JLRoutes
   - YLBDServices (0.1.0)
   - YLBModule (0.2.0)
   - YLBProUI (0.1.0):
@@ -398,7 +399,7 @@ CHECKOUT OPTIONS:
     :commit: 82931c4703500924ad68fd0e2efdaa4077b34d32
     :git: https://github.com/YuliboTeam/YLBDMine.git
   YLBDRouter:
-    :commit: 23c532264007cc48a421bbd632c1699d1283e7bb
+    :commit: 3f43ef7ef058b3b512aa8ffc0bc2af96e3b53b76
     :git: https://github.com/YuliboTeam/YLBDRouter.git
   YLBDServices:
     :commit: 87e6986da7107d5cf9e326f11f4c6ce7a44735c8
@@ -420,11 +421,11 @@ SPEC CHECKSUMS:
   YLBDesign: c2fa8f3d2f983416f0cd51955acaf8db54085343
   YLBDHome: 29c572a01957650174018b7e0238e224650a4467
   YLBDMine: c57eb4016ee6f3a9a56c6ed496fcad56dcca631d
-  YLBDRouter: 4c3a2c22c71466380c24f2e56dc5850561471137
+  YLBDRouter: be78fe148b2d796ed23cf1b0cba6b1482128f53c
   YLBDServices: 7a3ac8000b966fdc07c6b7f147cdc8779fe76bd6
   YLBModule: 18ea2d791e8e5c672bdd9f39c711234935475e7c
   YLBProUI: f1c059b8d3151e8a6a5bdf0fba329d2e3e5bb020
 
-PODFILE CHECKSUM: 865ae5dec7531391a2e8c28695a2e640b83fbd75
+PODFILE CHECKSUM: ffe557788851205c25b631ac1e7d57e220ea5366
 
 COCOAPODS: 1.11.2
