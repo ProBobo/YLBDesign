@@ -1,1 +1,1 @@
-../../../../../../YLBDServices/YLBDServices/Classes/YLBDMineProtocol.h
+../../../YLBDServices/YLBDServices/Classes/YLBDMineProtocol.h

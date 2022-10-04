@@ -1,1 +1,1 @@
-../../../../../../YLBDDetail/YLBDDetail/Classes/YLBDDetailAppDelegate.h
+../../../YLBDDetail/YLBDDetail/Classes/YLBDDetailAppDelegate.h

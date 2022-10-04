@@ -1,1 +1,1 @@
-../../../../../../YLBDDetail/YLBDDetail/Classes/YLBDDetailController.h
+../../../YLBDDetail/YLBDDetail/Classes/YLBDDetailController.h

@@ -1,1 +1,1 @@
-../../../../../../YLBDMine/YLBDMine/Classes/YLBDMineAppDelegate.h
+../../../YLBDMine/YLBDMine/Classes/YLBDMineAppDelegate.h

@@ -1,1 +1,1 @@
-../../../../../../YLBDMine/YLBDMine/Classes/YLBDMineController.h
+../../../YLBDMine/YLBDMine/Classes/YLBDMineController.h

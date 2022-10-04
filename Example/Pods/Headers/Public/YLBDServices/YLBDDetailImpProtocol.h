@@ -1,1 +1,1 @@
-../../../../../../YLBDServices/YLBDServices/Classes/Imp/YLBDDetailImpProtocol.h
+../../../YLBDServices/YLBDServices/Classes/Imp/YLBDDetailImpProtocol.h

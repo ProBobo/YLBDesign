@@ -339,13 +339,13 @@ DEPENDENCIES:
   - JLRoutes (from `https://github.com/joeldev/JLRoutes.git`)
   - QMUIKit
   - YLBCommon (from `https://github.com/ProBobo/YLBCommon.git`)
-  - YLBDBasePod (from `../../YLBDBasePod`)
-  - YLBDDetail (from `../../YLBDDetail`)
+  - YLBDBasePod (from `https://github.com/YuliboTeam/YLBDBasePod.git`)
+  - YLBDDetail (from `https://github.com/YuliboTeam/YLBDDetail.git`)
   - YLBDesign (from `../`)
-  - YLBDHome (from `../../YLBDHome`)
-  - YLBDMine (from `../../YLBDMine`)
-  - YLBDRouter (from `../../YLBDRouter`)
-  - YLBDServices (from `../../YLBDServices`)
+  - YLBDHome (from `https://github.com/YuliboTeam/YLBDHome.git`)
+  - YLBDMine (from `https://github.com/YuliboTeam/YLBDMine.git`)
+  - YLBDRouter (from `https://github.com/YuliboTeam/YLBDRouter.git`)
+  - YLBDServices (from `https://github.com/YuliboTeam/YLBDServices.git`)
   - YLBModule (from `https://github.com/ProBobo/YLBModule.git`)
   - YLBProUI (from `https://github.com/YuliboTeam/YLBProUI.git`)
 
@@ -360,19 +360,19 @@ EXTERNAL SOURCES:
   YLBCommon:
     :git: https://github.com/ProBobo/YLBCommon.git
   YLBDBasePod:
-    :path: "../../YLBDBasePod"
+    :git: https://github.com/YuliboTeam/YLBDBasePod.git
   YLBDDetail:
-    :path: "../../YLBDDetail"
+    :git: https://github.com/YuliboTeam/YLBDDetail.git
   YLBDesign:
     :path: "../"
   YLBDHome:
-    :path: "../../YLBDHome"
+    :git: https://github.com/YuliboTeam/YLBDHome.git
   YLBDMine:
-    :path: "../../YLBDMine"
+    :git: https://github.com/YuliboTeam/YLBDMine.git
   YLBDRouter:
-    :path: "../../YLBDRouter"
+    :git: https://github.com/YuliboTeam/YLBDRouter.git
   YLBDServices:
-    :path: "../../YLBDServices"
+    :git: https://github.com/YuliboTeam/YLBDServices.git
   YLBModule:
     :git: https://github.com/ProBobo/YLBModule.git
   YLBProUI:
@@ -385,6 +385,24 @@ CHECKOUT OPTIONS:
   YLBCommon:
     :commit: d84f498994d10ff0194d61057d8fa7131b0ae47a
     :git: https://github.com/ProBobo/YLBCommon.git
+  YLBDBasePod:
+    :commit: 12e36ffbfe94c38131a341b936e5444fd45034f7
+    :git: https://github.com/YuliboTeam/YLBDBasePod.git
+  YLBDDetail:
+    :commit: c0ef9635610363a806066599270f5f85495a0b18
+    :git: https://github.com/YuliboTeam/YLBDDetail.git
+  YLBDHome:
+    :commit: e8875adf4b33c00abfbaa633df0efd58575a3e22
+    :git: https://github.com/YuliboTeam/YLBDHome.git
+  YLBDMine:
+    :commit: 82931c4703500924ad68fd0e2efdaa4077b34d32
+    :git: https://github.com/YuliboTeam/YLBDMine.git
+  YLBDRouter:
+    :commit: 23c532264007cc48a421bbd632c1699d1283e7bb
+    :git: https://github.com/YuliboTeam/YLBDRouter.git
+  YLBDServices:
+    :commit: 87e6986da7107d5cf9e326f11f4c6ce7a44735c8
+    :git: https://github.com/YuliboTeam/YLBDServices.git
   YLBModule:
     :commit: dec32d8889b1be0f90d4e0226f49d2847c133dc5
     :git: https://github.com/ProBobo/YLBModule.git
