@@ -282,5 +282,6 @@ pod 'QMUIKit'
 
 
 # 文章
+[掘金：iOS架构：从开发到跨端架构师，实现iOS开发对Android进行跨端开发，一套代码多端使用。](https://juejin.cn/post/7150914629718245407)
 
 [简书：iOS架构：从开发到跨端架构师，实现iOS开发对Android进行跨端开发，一套代码多端使用。](https://www.jianshu.com/p/aa35cb7b4276)
