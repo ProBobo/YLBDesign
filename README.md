@@ -239,6 +239,19 @@ pod 'QMUIKit'
 
 # 关于小程序的开发
 
+uni小程序自带`胶囊按钮`，如果想让小程序页面和原生一致，可以在pages.json文件中设置titleNView为false，这样小程序中就不会出现胶囊按钮。
+```
+{
+            "path": "pages/order/order",
+            "style": {
+                "navigationBarTitleText": "",
+                "app-plus": {
+                    "titleNView": false,//禁用原生导航栏
+                    "bounce":"none"
+                    }
+            }
+}
+```
 
 
 # 文章
