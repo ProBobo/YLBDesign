@@ -260,6 +260,18 @@ pod 'QMUIKit'
 }
 ```
 
+3、uni小程序使用的也是`路由跳转`，可以和App的路由跳转进行统一。App端的路由配置文件ClassName.json也可以部署到远程服务器动态下发也可以直接内置到工程中。
+```
+{
+    "scheme":"YLDesign202210",
+    "home":"YLBDHomeController",
+    "mine":"YLBDMineController",
+    "detail":"YLBDDetailController",
+    
+}
+```
+所以，小程序页面和原生页面可以实现互换，在修复线上bug时可以节约发版时间。
+
 
 # 文章
 
