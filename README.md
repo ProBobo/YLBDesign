@@ -239,7 +239,14 @@ pod 'QMUIKit'
 
 # 关于小程序的开发
 
-uni小程序自带`胶囊按钮`，如果想让小程序页面和原生一致，可以在pages.json文件中设置titleNView为false，这样小程序中就不会出现胶囊按钮。
+1、uni小程序的应用资源集成方式
+
+[https://nativesupport.dcloud.net.cn/UniMPDocs/UseSdk/ios?id=uni小程序的应用资源集成方式](https://nativesupport.dcloud.net.cn/UniMPDocs/UseSdk/ios?id=uni小程序的应用资源集成方式)
+
+生成的 uni小程序 wgt 资源包可以部署到远程服务器动态下发也可以直接内置到工程中。
+
+2、uni小程序自带`胶囊按钮`，如果想让小程序页面和原生一致，可以在pages.json文件中设置titleNView为false，这样小程序中就不会出现胶囊按钮。
+
 ```
 {
             "path": "pages/order/order",
