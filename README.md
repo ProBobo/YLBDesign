@@ -8,7 +8,7 @@
 
 YLBDesign is available under the MIT license. See the LICENSE file for more info.
 
-# 说明
+# YLBDesign架构：从开发到跨端架构师，实现iOS开发对Android进行跨端开发，一套代码多端使用。
 
 本文架构由作者本人经过多年对架构的探索和理解，从理论依据到源代码实现，并在开发项目的实际应用中逐步完善，形成了一套对项目的组件化，模块的独立化，并且完全实现了插件化（热更新方案）的架构方案。特别是插件化（热更新）方案，会让人眼前一亮，可以`使iOS开发迅速转变为跨端开发，对移动端进行统一`。
 
@@ -32,7 +32,7 @@ YLBDesign项目：https://github.com/ProBobo/YLBDesign
 
 最麻烦的事，可能是想要开始iOS架构，却发现相关的资料并不是很丰富，大部分都是探讨的内容。所以作者特意开源了代码。
 
-# YLBDesign架构组件
+# YLBDesign的架构组件
 
 `架构组件是构成架构的具体代码基础。`
 `架构包括：架构组件、业务模块组件、资源等。`
@@ -53,7 +53,7 @@ YLBDesign项目：https://github.com/ProBobo/YLBDesign
 
 模块通信：YLBModule（https://github.com/ProBobo/YLBModule）
 
-路由跳转：JLRoutes（https://github.com/joeldev/JLRoutes）
+路由跳转：JLRoutes（https://github.com/joeldev/JLRoutes）、YLBDRouter（https://github.com/YuliboTeam/YLBDRouter）
 
 插件化(热更新)：小程序（https://nativesupport.dcloud.net.cn/README）
 
