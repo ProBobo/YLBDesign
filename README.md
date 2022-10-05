@@ -14,7 +14,7 @@ YLBDesign is available under the MIT license. See the LICENSE file for more info
 
 # YLBDesign开源架构
 
-YLBDesign项目：https://github.com/ProBobo/YLBDesign
+YLBDesign项目：[https://github.com/ProBobo/YLBDesign](https://github.com/ProBobo/YLBDesign)
 
 # 为什么开源
 
@@ -51,11 +51,11 @@ YLBDesign项目：https://github.com/ProBobo/YLBDesign
 建议大家使用作者在YLBDesign中使用的架构组件，这样可以确保和作者所实现的效果一致，以免出现效果上的不一致而困惑。
 作者所建立的iOS架构支持线上修复App页面问题，不需要每次修复问题都上线AppStore，小程序在这方面有天然优势（后期会对这方面做详细描述）。
 
-模块通信：YLBModule（https://github.com/ProBobo/YLBModule）
+模块通信：YLBModule（[https://github.com/ProBobo/YLBModule](https://github.com/ProBobo/YLBModule)）
 
 路由跳转：JLRoutes（[https://github.com/joeldev/JLRoutes](https://github.com/joeldev/JLRoutes)）、YLBDRouter（[https://github.com/YuliboTeam/YLBDRouter](https://github.com/YuliboTeam/YLBDRouter)）
 
-插件化(热更新)：小程序（https://nativesupport.dcloud.net.cn/README）
+插件化(热更新)：小程序（[https://nativesupport.dcloud.net.cn/README](https://nativesupport.dcloud.net.cn/README)）
 
 >说明：这里只有小程序没有进行组件化封装，而是使用官方文档进行集成，主要是为了便于理解，和官方文档保持一致。当然，要对小程序进行Pod组件化封装也是能做到的。由于uni-app提供的小程序依赖包太大，有1.6G，上传Github受到限制，当然下载也会很消耗时间。所以作者提供了小程序的集成链接：[https://nativesupport.dcloud.net.cn/README](https://nativesupport.dcloud.net.cn/README)。
 
@@ -236,6 +236,10 @@ pod 'YLBCommon', :git =>'https://github.com/ProBobo/YLBCommon.git'
 pod 'YLBProUI', :git => 'https://github.com/YuliboTeam/YLBProUI.git'
 pod 'QMUIKit'
 ```
+
+# 关于小程序的开发
+
+
 
 # 文章
 
