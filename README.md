@@ -239,4 +239,4 @@ pod 'QMUIKit'
 
 # 文章
 
-[简书](https://www.jianshu.com/p/aa35cb7b4276)
+[简书：iOS架构：从开发到跨端架构师，实现iOS开发对Android进行跨端开发，一套代码多端使用。](https://www.jianshu.com/p/aa35cb7b4276)
