@@ -260,7 +260,15 @@ pod 'QMUIKit'
 }
 ```
 
-3、uni小程序使用的也是`路由跳转`，可以和App的路由跳转进行统一。App端的路由配置文件ClassName.json也可以部署到远程服务器动态下发也可以直接内置到工程中。
+3、为了避免小程序出现版本检查提示框，需要设置manifest.json文件中的ignoreVersion为true
+
+```
+"compatible": {
+    "ignoreVersion": true //true表示忽略版本检查提示框，HBuilderX1.9.0及以上版本支持  
+}, 
+```
+
+4、uni小程序使用的也是`路由跳转`，可以和App的路由跳转进行统一。App端的路由配置文件ClassName.json也可以部署到远程服务器动态下发也可以直接内置到工程中。
 ```
 {
     "scheme":"YLDesign202210",
