@@ -43,7 +43,7 @@ YLBDesign项目：https://github.com/ProBobo/YLBDesign
 
 模块通信：YLBModule、BeeHive
 路由跳转：JLRoutes、MGJRouter
-插件化(热更新)：小程序（https://nativesupport.dcloud.net.cn/README）、React Native、自研小程序语言、自研跨端语言
+插件化(热更新)：小程序（[https://nativesupport.dcloud.net.cn/README](https://nativesupport.dcloud.net.cn/README)）、React Native、自研小程序语言、自研跨端语言
 
 **YLBDesign使用的架构组件**
 
@@ -53,7 +53,7 @@ YLBDesign项目：https://github.com/ProBobo/YLBDesign
 
 模块通信：YLBModule（https://github.com/ProBobo/YLBModule）
 
-路由跳转：JLRoutes（https://github.com/joeldev/JLRoutes）、YLBDRouter（https://github.com/YuliboTeam/YLBDRouter）
+路由跳转：JLRoutes（[https://github.com/joeldev/JLRoutes](https://github.com/joeldev/JLRoutes)）、YLBDRouter（[https://github.com/YuliboTeam/YLBDRouter](https://github.com/YuliboTeam/YLBDRouter)）
 
 插件化(热更新)：小程序（https://nativesupport.dcloud.net.cn/README）
 
