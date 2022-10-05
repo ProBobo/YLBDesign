@@ -24,6 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tabBar.backgroundColor = UIColor.whiteColor;//设置底部导航栏为白色
     self.delegate = self;
     
     [self setUpChildViewController];
