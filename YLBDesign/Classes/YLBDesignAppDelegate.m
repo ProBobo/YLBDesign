@@ -29,7 +29,7 @@
 }
 
 - (NSInteger)ylb_modulePriority {
-    return 500;
+    return 500;//不同的模块返回的值可以不同，数值越小越先加载
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     

@@ -15,6 +15,8 @@
     // Override point for customization after application launch.
     
     //super的位置决定当前AppDelegate的优先级是否最高，放在最底部表示当前AppDelegate优先级最高
+    //调用 YLBAppDelegate 中 didFinishLaunchingWithOptions 方法从而调用 YLBModuleManager 的 didFinishLaunchingWithOptions 的方法
+    //开始加载模块
     [super application:application didFinishLaunchingWithOptions:launchOptions];
     
     return YES;
