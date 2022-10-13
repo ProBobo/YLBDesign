@@ -20,7 +20,7 @@ YLBDesign项目：[https://github.com/ProBobo/YLBDesign](https://github.com/ProB
 
 在作者看来，iOS架构因为资料少，所以大大增加了开发的掌握成本，所以普及率也不高。然而一些大型的项目或多或少需要解决一些代码复用和模块独立的问题。为了提升开发效率，架构在一些项目发展的后期就显得非常重要。因此，开源架构就有其现实意义。
 
-对iOS架构，作者也进行了自己的思考：因为`架构不是一种单一的技术或者组件，而是一系列组件、模块、资源、理论的综合体`。因为需要把业务代码当作一个完整的管理对象，所以架构更像是`一个代码和资源的管理系统`。所以很多时候一些开源库只是实现了架构中的一部分功能，而不是全部内容。
+对iOS架构，作者也进行了自己的思考：因为`架构不是一种单一的技术或者组件，而是一系列组件、模块、资源、理论的综合体`。因为需要把业务代码当作一个完整的管理对象，所以架构更像是`一个代码源文件和资源的管理系统`。所以很多时候一些开源库只是实现了架构中的一部分功能，而不是全部内容。
 
 # 前言
 
@@ -70,14 +70,14 @@ App小程序可以快速转化为微信小程序或者支付宝小程序等：�
 
 >这是关于uni-app的描述：开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/飞书/QQ/快手/钉钉/淘宝）、快应用等多个平台。
 
-1、有完整的开发文档，容易掌握。
-2、`一套代码，多端运行`。
-2.1、支持在iOS端、Android端、H5端运行。
-2.2、使用的是前端开发语言，可以进行跨端开发。
-2.3、可以实现App小程序快速转化为微信、支付宝等主流小程序。
-2.4、有独立的开发工具，可以独立修改小程序，无需编译iOS项目进行发版。
-2.5、有自己的插件市场。
-3、替代H5，优化用户体验。
+1、有完整的开发文档，容易掌握。  
+2、`一套代码，多端运行`。  
+2.1、支持在iOS端、Android端、H5端运行。  
+2.2、使用的是前端开发语言，可以进行跨端开发。  
+2.3、可以实现App小程序快速转化为微信、支付宝等主流小程序。  
+2.4、有独立的开发工具，可以独立修改小程序，无需编译iOS项目进行发版。  
+2.5、有自己的插件市场。  
+3、替代H5，优化用户体验。  
 
 # 模块通信：YLBModule
 
@@ -92,8 +92,8 @@ App小程序可以快速转化为微信小程序或者支付宝小程序等：�
 **YLBModule使用说明**
 >注意：YLBModule依赖库在YLBDBasePod组件中建立依赖关系，对YLBDBasePod进行依赖即可对YLBModule进行依赖。
 
-1、主工程YLBDesign引入YLBModule依赖库（即对YLBDBasePod进行依赖）。
-2、在主工程的AppDelegate中引入YLBAppDelegate.h文件，并继承YLBAppDelegate
+1、主工程YLBDesign引入YLBModule依赖库（即对YLBDBasePod进行依赖）。  
+2、在主工程的AppDelegate中引入YLBAppDelegate.h文件，并继承YLBAppDelegate  
 ```
 @import UIKit;
 #import <YLBModule/YLBAppDelegate.h>
@@ -120,18 +120,18 @@ NS_ASSUME_NONNULL_END
     return YES;
 }
 ```
-3、创建首页模块YLBDHome，并引入YLBModule依赖库。
-4、在YLBDHome中创建YLBDHomeAppDelegate，用于管理模块生命周期。
-5、创建YLBDServices组件，并创建YLBDHomeProtocol协议文件。
-6、注册模块：实现模块生命周期
+3、创建首页模块YLBDHome，并引入YLBModule依赖库。  
+4、在YLBDHome中创建YLBDHomeAppDelegate，用于管理模块生命周期。  
+5、创建YLBDServices组件，并创建YLBDHomeProtocol协议文件。  
+6、注册模块：实现模块生命周期  
 ```
 [[YLBModuleManager sharedInstance] registerModuleClass:[self class]];
 ```
-7、注册服务：通过服务协议可以找到服务类
+7、注册服务：通过服务协议可以找到服务类  
 ```
 [[YLBServiceManager sharedInstance] registerService:@protocol(YLBDHomeProtocol) implClass:NSClassFromString(@"YLBDHomeController")];
 ```
-8、通过服务协议(YLBDHomeProtocol)获取服务类(YLBDHomeController)
+8、通过服务协议(YLBDHomeProtocol)获取服务类(YLBDHomeController)  
 ```
 //
 //  YLBDesignTabBarController.m
